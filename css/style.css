@@ -1,3 +1,115 @@
+
+/* General Settings */
+
+body {
+  font-family: 'Arimo', sans-serif;
+  width: 100%;
+  height: 100%;
+  color: #333;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
 .wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4 , h5, h6 {
+	font-family: 'Open Sans' ,sans-serif;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+  	display: block;
+  	clear: both;
+  	content: "";
+}
+
+/* Header */
+
+.wrapper-header {
 	width: 960px;
+	margin: 0 auto;
+}
+
+/* Logo Space */
+
+.title {
+	text-transform: uppercase;
+	font-size: 24px;
+	padding: 0;
+	letter-spacing: 2px;
+	float: left;
+	margin: 10px;
+}
+
+.first-color {
+	color: #22a8b5;
+}
+
+.second-color {
+	color: #ff5842;
+}
+
+/* Top-Navigation Bar */
+
+.main-nav {
+	float: right;
+	margin: 10px;
+}
+
+.main-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.main-nav ul li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.main-nav ul li a {
+	font-size: 12px;
+}
+
+/* Main Body */
+
+.wrapper-inner {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* Image Carousel */
+
+.image-carousel {
+	margin: 10px 0;
+}
+
+.image-list {
+	width: 220px;
+	float: left;
+	margin: 0 10px;
+}
+
+.main-image {
+	width: 700px;
+	float: left;
+	margin: 0 10px;
+}
+
+.image-list li+li {
+	margin-top: 20px;
 }
